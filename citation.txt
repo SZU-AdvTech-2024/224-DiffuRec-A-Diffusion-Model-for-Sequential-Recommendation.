@@ -3,7 +3,6 @@
     journal = "ACM Transactions on Information Systems",
     number = "3",
     pages = "1--28",
-    publisher = "ACM New York, NY",
     title = "{Diffurec: A diffusion model for sequential recommendation}",
     volume = "42",
     year = "2023"
