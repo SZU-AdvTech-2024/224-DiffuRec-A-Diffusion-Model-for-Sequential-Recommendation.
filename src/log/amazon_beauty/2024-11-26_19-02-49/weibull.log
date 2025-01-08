@@ -1,0 +1,742 @@
+2024/11/26 19:02:49 - __main__ - INFO - 65 - main - Namespace(batch_size=512, dataset='amazon_beauty', decay_step=100, description='Diffu_norm_score', device='cuda', diffusion_steps=32, diversity_measure=False, dropout=0.1, emb_dropout=0.3, epoch_time_avg=False, epochs=500, eval_interval=20, gamma=0.1, hidden_act='gelu', hidden_size=128, lambda_uncertainty=0.001, log_file='log/', long_head=False, loss_lambda=0.001, lr=0.001, max_len=50, metric_ks=[5, 10, 20], momentum=None, noise_schedule='trunc_lin', num_blocks=4, num_gpu=1, optimizer='Adam', patience=5, random_seed=1997, rescale_timesteps=True, schedule_sampler_name='lossaware', weight_decay=0)
+2024/11/26 19:03:07 - __main__ - INFO - 72 - trainer - Epoch: 0
+2024/11/26 19:03:08 - __main__ - INFO - 88 - trainer - [0/257] Loss: 38.1664
+2024/11/26 19:03:43 - __main__ - INFO - 88 - trainer - [52/257] Loss: 36.1636
+2024/11/26 19:04:19 - __main__ - INFO - 88 - trainer - [104/257] Loss: 33.4775
+2024/11/26 19:05:00 - __main__ - INFO - 88 - trainer - [156/257] Loss: 30.9968
+2024/11/26 19:05:40 - __main__ - INFO - 88 - trainer - [208/257] Loss: 28.4510
+2024/11/26 19:06:18 - __main__ - INFO - 72 - trainer - Epoch: 1
+2024/11/26 19:06:19 - __main__ - INFO - 88 - trainer - [0/257] Loss: 26.7308
+2024/11/26 19:07:00 - __main__ - INFO - 88 - trainer - [52/257] Loss: 25.1737
+2024/11/26 19:07:42 - __main__ - INFO - 88 - trainer - [104/257] Loss: 21.4659
+2024/11/26 19:08:23 - __main__ - INFO - 88 - trainer - [156/257] Loss: 15.8381
+2024/11/26 19:09:05 - __main__ - INFO - 88 - trainer - [208/257] Loss: 12.9636
+2024/11/26 19:09:31 - __main__ - INFO - 72 - trainer - Epoch: 2
+2024/11/26 19:09:31 - __main__ - INFO - 88 - trainer - [0/257] Loss: 11.4932
+2024/11/26 19:10:11 - __main__ - INFO - 88 - trainer - [52/257] Loss: 10.5042
+2024/11/26 19:10:53 - __main__ - INFO - 88 - trainer - [104/257] Loss: 10.3178
+2024/11/26 19:11:38 - __main__ - INFO - 88 - trainer - [156/257] Loss: 9.7245
+2024/11/26 19:12:20 - __main__ - INFO - 88 - trainer - [208/257] Loss: 9.6680
+2024/11/26 19:12:58 - __main__ - INFO - 72 - trainer - Epoch: 3
+2024/11/26 19:12:58 - __main__ - INFO - 88 - trainer - [0/257] Loss: 9.7096
+2024/11/26 19:13:39 - __main__ - INFO - 88 - trainer - [52/257] Loss: 9.3784
+2024/11/26 19:14:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 9.3749
+2024/11/26 19:15:03 - __main__ - INFO - 88 - trainer - [156/257] Loss: 9.1063
+2024/11/26 19:15:45 - __main__ - INFO - 88 - trainer - [208/257] Loss: 9.3409
+2024/11/26 19:16:22 - __main__ - INFO - 72 - trainer - Epoch: 4
+2024/11/26 19:16:23 - __main__ - INFO - 88 - trainer - [0/257] Loss: 9.2243
+2024/11/26 19:17:04 - __main__ - INFO - 88 - trainer - [52/257] Loss: 9.1167
+2024/11/26 19:17:44 - __main__ - INFO - 88 - trainer - [104/257] Loss: 9.0228
+2024/11/26 19:18:25 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.9765
+2024/11/26 19:19:06 - __main__ - INFO - 88 - trainer - [208/257] Loss: 8.8602
+2024/11/26 19:19:44 - __main__ - INFO - 72 - trainer - Epoch: 5
+2024/11/26 19:19:45 - __main__ - INFO - 88 - trainer - [0/257] Loss: 8.9125
+2024/11/26 19:20:26 - __main__ - INFO - 88 - trainer - [52/257] Loss: 8.8480
+2024/11/26 19:21:07 - __main__ - INFO - 88 - trainer - [104/257] Loss: 8.7651
+2024/11/26 19:21:48 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.6858
+2024/11/26 19:22:28 - __main__ - INFO - 88 - trainer - [208/257] Loss: 8.6133
+2024/11/26 19:23:05 - __main__ - INFO - 72 - trainer - Epoch: 6
+2024/11/26 19:23:06 - __main__ - INFO - 88 - trainer - [0/257] Loss: 8.4403
+2024/11/26 19:23:51 - __main__ - INFO - 88 - trainer - [52/257] Loss: 8.4554
+2024/11/26 19:24:28 - __main__ - INFO - 88 - trainer - [104/257] Loss: 8.5230
+2024/11/26 19:25:05 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.6175
+2024/11/26 19:25:46 - __main__ - INFO - 88 - trainer - [208/257] Loss: 8.2529
+2024/11/26 19:26:24 - __main__ - INFO - 72 - trainer - Epoch: 7
+2024/11/26 19:26:24 - __main__ - INFO - 88 - trainer - [0/257] Loss: 8.3590
+2024/11/26 19:27:05 - __main__ - INFO - 88 - trainer - [52/257] Loss: 8.4815
+2024/11/26 19:27:44 - __main__ - INFO - 88 - trainer - [104/257] Loss: 8.3893
+2024/11/26 19:28:26 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.2880
+2024/11/26 19:29:07 - __main__ - INFO - 88 - trainer - [208/257] Loss: 8.1095
+2024/11/26 19:29:45 - __main__ - INFO - 72 - trainer - Epoch: 8
+2024/11/26 19:29:46 - __main__ - INFO - 88 - trainer - [0/257] Loss: 8.3493
+2024/11/26 19:30:27 - __main__ - INFO - 88 - trainer - [52/257] Loss: 8.0905
+2024/11/26 19:31:07 - __main__ - INFO - 88 - trainer - [104/257] Loss: 8.1255
+2024/11/26 19:31:48 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.1362
+2024/11/26 19:32:29 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.9451
+2024/11/26 19:33:08 - __main__ - INFO - 72 - trainer - Epoch: 9
+2024/11/26 19:33:09 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.9351
+2024/11/26 19:33:49 - __main__ - INFO - 88 - trainer - [52/257] Loss: 8.1389
+2024/11/26 19:34:30 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.8104
+2024/11/26 19:35:11 - __main__ - INFO - 88 - trainer - [156/257] Loss: 8.1872
+2024/11/26 19:35:53 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.8630
+2024/11/26 19:36:31 - __main__ - INFO - 72 - trainer - Epoch: 10
+2024/11/26 19:36:32 - __main__ - INFO - 88 - trainer - [0/257] Loss: 8.0462
+2024/11/26 19:37:13 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.9161
+2024/11/26 19:37:54 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.8259
+2024/11/26 19:38:35 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.9699
+2024/11/26 19:39:16 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.7888
+2024/11/26 19:39:57 - __main__ - INFO - 72 - trainer - Epoch: 11
+2024/11/26 19:39:58 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.7598
+2024/11/26 19:40:40 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.6719
+2024/11/26 19:41:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.8870
+2024/11/26 19:42:03 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.9419
+2024/11/26 19:42:44 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.9081
+2024/11/26 19:43:21 - __main__ - INFO - 72 - trainer - Epoch: 12
+2024/11/26 19:43:22 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.7401
+2024/11/26 19:44:03 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.5765
+2024/11/26 19:44:44 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.5719
+2024/11/26 19:45:25 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5955
+2024/11/26 19:46:07 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.8249
+2024/11/26 19:46:46 - __main__ - INFO - 72 - trainer - Epoch: 13
+2024/11/26 19:46:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.6285
+2024/11/26 19:47:30 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.4810
+2024/11/26 19:48:10 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.7670
+2024/11/26 19:48:51 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5778
+2024/11/26 19:49:32 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.7631
+2024/11/26 19:50:11 - __main__ - INFO - 72 - trainer - Epoch: 14
+2024/11/26 19:50:12 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.7503
+2024/11/26 19:50:53 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.4780
+2024/11/26 19:51:34 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.7163
+2024/11/26 19:52:15 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5969
+2024/11/26 19:52:55 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.6900
+2024/11/26 19:53:34 - __main__ - INFO - 72 - trainer - Epoch: 15
+2024/11/26 19:53:34 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.3156
+2024/11/26 19:54:15 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.6349
+2024/11/26 19:54:55 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.7618
+2024/11/26 19:55:36 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5202
+2024/11/26 19:56:18 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.5228
+2024/11/26 19:56:57 - __main__ - INFO - 72 - trainer - Epoch: 16
+2024/11/26 19:56:57 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.1065
+2024/11/26 19:57:39 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.3023
+2024/11/26 19:58:20 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.6706
+2024/11/26 19:59:00 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5529
+2024/11/26 19:59:41 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.7132
+2024/11/26 20:00:20 - __main__ - INFO - 72 - trainer - Epoch: 17
+2024/11/26 20:00:21 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.6547
+2024/11/26 20:01:02 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.3498
+2024/11/26 20:01:43 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.3384
+2024/11/26 20:02:26 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.6472
+2024/11/26 20:03:08 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.2865
+2024/11/26 20:03:47 - __main__ - INFO - 72 - trainer - Epoch: 18
+2024/11/26 20:03:48 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.5361
+2024/11/26 20:04:31 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.3984
+2024/11/26 20:05:12 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.6202
+2024/11/26 20:05:54 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.5841
+2024/11/26 20:06:36 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.5763
+2024/11/26 20:07:17 - __main__ - INFO - 72 - trainer - Epoch: 19
+2024/11/26 20:07:17 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.4857
+2024/11/26 20:07:59 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.3148
+2024/11/26 20:08:41 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.2599
+2024/11/26 20:09:24 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.3527
+2024/11/26 20:10:07 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.3776
+2024/11/26 20:10:45 - __main__ - INFO - 72 - trainer - Epoch: 20
+2024/11/26 20:10:46 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.3713
+2024/11/26 20:11:28 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.3252
+2024/11/26 20:12:10 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.2546
+2024/11/26 20:12:51 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.4693
+2024/11/26 20:13:35 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.2644
+2024/11/26 20:14:15 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-26 20:14:15.515709
+2024/11/26 20:32:05 - __main__ - INFO - 121 - trainer - {'Best_HR@5': 0.0621, 'Best_NDCG@5': 0.0362, 'Best_HR@10': 0.1308, 'Best_NDCG@10': 0.0583, 'Best_HR@20': 0.264, 'Best_NDCG@20': 0.0916}
+2024/11/26 20:32:05 - __main__ - INFO - 122 - trainer - {'Best_epoch_HR@5': 20, 'Best_epoch_NDCG@5': 20, 'Best_epoch_HR@10': 20, 'Best_epoch_NDCG@10': 20, 'Best_epoch_HR@20': 20, 'Best_epoch_NDCG@20': 20}
+2024/11/26 20:32:05 - __main__ - INFO - 72 - trainer - Epoch: 21
+2024/11/26 20:32:06 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.3584
+2024/11/26 20:32:49 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.4513
+2024/11/26 20:33:32 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.3818
+2024/11/26 20:34:14 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.3768
+2024/11/26 20:34:57 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.1149
+2024/11/26 20:35:35 - __main__ - INFO - 72 - trainer - Epoch: 22
+2024/11/26 20:35:36 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.3226
+2024/11/26 20:36:19 - __main__ - INFO - 88 - trainer - [52/257] Loss: 7.2308
+2024/11/26 20:37:01 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.1893
+2024/11/26 20:37:44 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.9257
+2024/11/26 20:38:27 - __main__ - INFO - 88 - trainer - [208/257] Loss: 7.1911
+2024/11/26 20:39:07 - __main__ - INFO - 72 - trainer - Epoch: 23
+2024/11/26 20:39:08 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.0162
+2024/11/26 20:39:50 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.9744
+2024/11/26 20:40:35 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.9476
+2024/11/26 20:41:18 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.8867
+2024/11/26 20:42:02 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.9735
+2024/11/26 20:42:42 - __main__ - INFO - 72 - trainer - Epoch: 24
+2024/11/26 20:42:43 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.2846
+2024/11/26 20:43:27 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.9864
+2024/11/26 20:44:12 - __main__ - INFO - 88 - trainer - [104/257] Loss: 7.1304
+2024/11/26 20:44:54 - __main__ - INFO - 88 - trainer - [156/257] Loss: 7.1107
+2024/11/26 20:45:37 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.9562
+2024/11/26 20:46:17 - __main__ - INFO - 72 - trainer - Epoch: 25
+2024/11/26 20:46:18 - __main__ - INFO - 88 - trainer - [0/257] Loss: 7.0171
+2024/11/26 20:47:00 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.9977
+2024/11/26 20:47:44 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.8405
+2024/11/26 20:48:28 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.9468
+2024/11/26 20:49:13 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.7665
+2024/11/26 20:49:52 - __main__ - INFO - 72 - trainer - Epoch: 26
+2024/11/26 20:49:53 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.7280
+2024/11/26 20:50:35 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.7967
+2024/11/26 20:51:16 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.6592
+2024/11/26 20:51:57 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.5050
+2024/11/26 20:52:41 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.8471
+2024/11/26 20:53:20 - __main__ - INFO - 72 - trainer - Epoch: 27
+2024/11/26 20:53:21 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.8347
+2024/11/26 20:54:04 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.6330
+2024/11/26 20:54:46 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.9561
+2024/11/26 20:55:28 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.7993
+2024/11/26 20:56:14 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.6634
+2024/11/26 20:56:53 - __main__ - INFO - 72 - trainer - Epoch: 28
+2024/11/26 20:56:54 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.6333
+2024/11/26 20:57:37 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.4461
+2024/11/26 20:58:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.3202
+2024/11/26 20:59:04 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.5354
+2024/11/26 20:59:47 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.5807
+2024/11/26 21:00:27 - __main__ - INFO - 72 - trainer - Epoch: 29
+2024/11/26 21:00:28 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.4270
+2024/11/26 21:01:11 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.3615
+2024/11/26 21:01:53 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.9282
+2024/11/26 21:02:36 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.3916
+2024/11/26 21:03:20 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.3805
+2024/11/26 21:04:00 - __main__ - INFO - 72 - trainer - Epoch: 30
+2024/11/26 21:04:01 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.5262
+2024/11/26 21:04:42 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.1086
+2024/11/26 21:05:24 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.6124
+2024/11/26 21:06:06 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.1707
+2024/11/26 21:06:49 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.3592
+2024/11/26 21:07:28 - __main__ - INFO - 72 - trainer - Epoch: 31
+2024/11/26 21:07:29 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.2917
+2024/11/26 21:08:12 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.4225
+2024/11/26 21:08:56 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.1504
+2024/11/26 21:09:39 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.0868
+2024/11/26 21:10:26 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.4638
+2024/11/26 21:11:07 - __main__ - INFO - 72 - trainer - Epoch: 32
+2024/11/26 21:11:08 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.0771
+2024/11/26 21:11:52 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.4967
+2024/11/26 21:12:35 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.1103
+2024/11/26 21:13:18 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.0875
+2024/11/26 21:14:01 - __main__ - INFO - 88 - trainer - [208/257] Loss: 6.3153
+2024/11/26 21:14:40 - __main__ - INFO - 72 - trainer - Epoch: 33
+2024/11/26 21:14:41 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.3939
+2024/11/26 21:15:24 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.0698
+2024/11/26 21:16:06 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.0788
+2024/11/26 21:16:48 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.3439
+2024/11/26 21:17:30 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.9590
+2024/11/26 21:18:09 - __main__ - INFO - 72 - trainer - Epoch: 34
+2024/11/26 21:18:10 - __main__ - INFO - 88 - trainer - [0/257] Loss: 6.1754
+2024/11/26 21:18:54 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.1094
+2024/11/26 21:19:36 - __main__ - INFO - 88 - trainer - [104/257] Loss: 6.2824
+2024/11/26 21:20:18 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.2125
+2024/11/26 21:21:01 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.9679
+2024/11/26 21:21:41 - __main__ - INFO - 72 - trainer - Epoch: 35
+2024/11/26 21:21:42 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.9673
+2024/11/26 21:22:24 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.8551
+2024/11/26 21:23:06 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.8596
+2024/11/26 21:23:48 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.0003
+2024/11/26 21:24:32 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.7549
+2024/11/26 21:25:11 - __main__ - INFO - 72 - trainer - Epoch: 36
+2024/11/26 21:25:12 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.8043
+2024/11/26 21:25:57 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.8985
+2024/11/26 21:26:41 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.8594
+2024/11/26 21:27:24 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.8592
+2024/11/26 21:28:06 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.7493
+2024/11/26 21:28:46 - __main__ - INFO - 72 - trainer - Epoch: 37
+2024/11/26 21:28:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.7865
+2024/11/26 21:29:29 - __main__ - INFO - 88 - trainer - [52/257] Loss: 6.0824
+2024/11/26 21:30:11 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.7439
+2024/11/26 21:30:53 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.7704
+2024/11/26 21:31:36 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.7658
+2024/11/26 21:32:16 - __main__ - INFO - 72 - trainer - Epoch: 38
+2024/11/26 21:32:17 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.8425
+2024/11/26 21:32:59 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.7309
+2024/11/26 21:33:40 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.6835
+2024/11/26 21:34:23 - __main__ - INFO - 88 - trainer - [156/257] Loss: 6.1284
+2024/11/26 21:35:06 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.8384
+2024/11/26 21:35:45 - __main__ - INFO - 72 - trainer - Epoch: 39
+2024/11/26 21:35:46 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.7120
+2024/11/26 21:36:28 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.6387
+2024/11/26 21:37:10 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.7100
+2024/11/26 21:37:51 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.6816
+2024/11/26 21:38:34 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.7045
+2024/11/26 21:39:13 - __main__ - INFO - 72 - trainer - Epoch: 40
+2024/11/26 21:39:14 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.6740
+2024/11/26 21:39:56 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.6493
+2024/11/26 21:40:38 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.9160
+2024/11/26 21:41:20 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.5872
+2024/11/26 21:42:01 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.4078
+2024/11/26 21:42:38 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-26 21:42:38.836743
+2024/11/26 22:01:30 - __main__ - INFO - 72 - trainer - Epoch: 41
+2024/11/26 22:01:31 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.2099
+2024/11/26 22:02:17 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.3986
+2024/11/26 22:03:03 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.8221
+2024/11/26 22:03:47 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.6130
+2024/11/26 22:04:31 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.5120
+2024/11/26 22:05:14 - __main__ - INFO - 72 - trainer - Epoch: 42
+2024/11/26 22:05:15 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.1949
+2024/11/26 22:06:01 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.4064
+2024/11/26 22:06:45 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.7444
+2024/11/26 22:07:29 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.3594
+2024/11/26 22:08:15 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.4441
+2024/11/26 22:08:56 - __main__ - INFO - 72 - trainer - Epoch: 43
+2024/11/26 22:08:57 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.4543
+2024/11/26 22:09:32 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.5313
+2024/11/26 22:10:18 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.5732
+2024/11/26 22:11:04 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.2932
+2024/11/26 22:11:49 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.2647
+2024/11/26 22:12:30 - __main__ - INFO - 72 - trainer - Epoch: 44
+2024/11/26 22:12:31 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.6734
+2024/11/26 22:13:15 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.5540
+2024/11/26 22:14:00 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.2144
+2024/11/26 22:14:45 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.1742
+2024/11/26 22:15:31 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.3983
+2024/11/26 22:16:13 - __main__ - INFO - 72 - trainer - Epoch: 45
+2024/11/26 22:16:14 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.5101
+2024/11/26 22:17:00 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.3728
+2024/11/26 22:17:45 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1754
+2024/11/26 22:18:31 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.4500
+2024/11/26 22:19:18 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.4367
+2024/11/26 22:20:02 - __main__ - INFO - 72 - trainer - Epoch: 46
+2024/11/26 22:20:03 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.5126
+2024/11/26 22:20:50 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.1666
+2024/11/26 22:21:35 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.3572
+2024/11/26 22:22:20 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.4734
+2024/11/26 22:23:05 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.2722
+2024/11/26 22:23:46 - __main__ - INFO - 72 - trainer - Epoch: 47
+2024/11/26 22:23:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.0258
+2024/11/26 22:24:30 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.3198
+2024/11/26 22:25:14 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1141
+2024/11/26 22:25:58 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.3851
+2024/11/26 22:26:42 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.1410
+2024/11/26 22:27:21 - __main__ - INFO - 72 - trainer - Epoch: 48
+2024/11/26 22:27:22 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.2673
+2024/11/26 22:28:06 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.1085
+2024/11/26 22:28:53 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.2743
+2024/11/26 22:29:37 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.5077
+2024/11/26 22:30:22 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.3439
+2024/11/26 22:31:01 - __main__ - INFO - 72 - trainer - Epoch: 49
+2024/11/26 22:31:02 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.5632
+2024/11/26 22:31:46 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.1477
+2024/11/26 22:32:29 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.2043
+2024/11/26 22:33:13 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.4437
+2024/11/26 22:33:56 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.3159
+2024/11/26 22:34:37 - __main__ - INFO - 72 - trainer - Epoch: 50
+2024/11/26 22:34:38 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.3341
+2024/11/26 22:35:20 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.8853
+2024/11/26 22:36:03 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.9925
+2024/11/26 22:36:44 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.5271
+2024/11/26 22:37:27 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.2058
+2024/11/26 22:38:06 - __main__ - INFO - 72 - trainer - Epoch: 51
+2024/11/26 22:38:06 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.4344
+2024/11/26 22:38:25 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7742
+2024/11/26 22:38:43 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1686
+2024/11/26 22:39:00 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.8101
+2024/11/26 22:39:20 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.2459
+2024/11/26 22:39:36 - __main__ - INFO - 72 - trainer - Epoch: 52
+2024/11/26 22:39:37 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.0812
+2024/11/26 22:39:54 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.1909
+2024/11/26 22:40:13 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1659
+2024/11/26 22:40:31 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.7678
+2024/11/26 22:40:50 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.0254
+2024/11/26 22:41:08 - __main__ - INFO - 72 - trainer - Epoch: 53
+2024/11/26 22:41:09 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.2186
+2024/11/26 22:41:28 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.1486
+2024/11/26 22:41:45 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.7207
+2024/11/26 22:42:02 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.9890
+2024/11/26 22:42:21 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.0447
+2024/11/26 22:42:38 - __main__ - INFO - 72 - trainer - Epoch: 54
+2024/11/26 22:42:38 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.9880
+2024/11/26 22:42:56 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7588
+2024/11/26 22:43:15 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.3575
+2024/11/26 22:43:33 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.6951
+2024/11/26 22:43:51 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.7959
+2024/11/26 22:44:07 - __main__ - INFO - 72 - trainer - Epoch: 55
+2024/11/26 22:44:08 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.0978
+2024/11/26 22:44:25 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7126
+2024/11/26 22:44:43 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.9410
+2024/11/26 22:45:01 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.9191
+2024/11/26 22:45:20 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.7579
+2024/11/26 22:45:36 - __main__ - INFO - 72 - trainer - Epoch: 56
+2024/11/26 22:45:36 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8200
+2024/11/26 22:45:54 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.6759
+2024/11/26 22:46:13 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.3548
+2024/11/26 22:46:31 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.0037
+2024/11/26 22:46:49 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.9930
+2024/11/26 22:47:07 - __main__ - INFO - 72 - trainer - Epoch: 57
+2024/11/26 22:47:07 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8935
+2024/11/26 22:47:24 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.0539
+2024/11/26 22:47:40 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1744
+2024/11/26 22:47:58 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.3393
+2024/11/26 22:48:17 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.9464
+2024/11/26 22:48:33 - __main__ - INFO - 72 - trainer - Epoch: 58
+2024/11/26 22:48:33 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.9420
+2024/11/26 22:48:51 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.5080
+2024/11/26 22:49:09 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.1518
+2024/11/26 22:49:26 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.8483
+2024/11/26 22:49:44 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.1015
+2024/11/26 22:49:59 - __main__ - INFO - 72 - trainer - Epoch: 59
+2024/11/26 22:50:00 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8616
+2024/11/26 22:50:17 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.8093
+2024/11/26 22:50:34 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.8066
+2024/11/26 22:50:52 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.7730
+2024/11/26 22:51:10 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6212
+2024/11/26 22:51:26 - __main__ - INFO - 72 - trainer - Epoch: 60
+2024/11/26 22:51:26 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8307
+2024/11/26 22:51:44 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.8622
+2024/11/26 22:52:01 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.0556
+2024/11/26 22:52:18 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.8684
+2024/11/26 22:52:36 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.0024
+2024/11/26 22:52:53 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-26 22:52:53.855724
+2024/11/26 22:59:26 - __main__ - INFO - 72 - trainer - Epoch: 61
+2024/11/26 22:59:26 - __main__ - INFO - 88 - trainer - [0/257] Loss: 5.1708
+2024/11/26 22:59:44 - __main__ - INFO - 88 - trainer - [52/257] Loss: 5.0412
+2024/11/26 23:00:01 - __main__ - INFO - 88 - trainer - [104/257] Loss: 5.0311
+2024/11/26 23:00:19 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.7213
+2024/11/26 23:00:37 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.7675
+2024/11/26 23:00:53 - __main__ - INFO - 72 - trainer - Epoch: 62
+2024/11/26 23:00:54 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.9414
+2024/11/26 23:01:11 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.9902
+2024/11/26 23:01:29 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5566
+2024/11/26 23:01:46 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.8181
+2024/11/26 23:02:04 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.8180
+2024/11/26 23:02:19 - __main__ - INFO - 72 - trainer - Epoch: 63
+2024/11/26 23:02:20 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.7768
+2024/11/26 23:02:37 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.9493
+2024/11/26 23:02:55 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5935
+2024/11/26 23:03:13 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.7949
+2024/11/26 23:03:31 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.8224
+2024/11/26 23:03:47 - __main__ - INFO - 72 - trainer - Epoch: 64
+2024/11/26 23:03:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8184
+2024/11/26 23:04:04 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.5709
+2024/11/26 23:04:22 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.8379
+2024/11/26 23:04:40 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.6216
+2024/11/26 23:04:58 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4440
+2024/11/26 23:05:14 - __main__ - INFO - 72 - trainer - Epoch: 65
+2024/11/26 23:05:15 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.9340
+2024/11/26 23:05:32 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.9633
+2024/11/26 23:05:49 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4407
+2024/11/26 23:06:06 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.5726
+2024/11/26 23:06:24 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.8601
+2024/11/26 23:06:40 - __main__ - INFO - 72 - trainer - Epoch: 66
+2024/11/26 23:06:40 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4385
+2024/11/26 23:06:58 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7861
+2024/11/26 23:07:16 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.9418
+2024/11/26 23:07:34 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.5289
+2024/11/26 23:07:52 - __main__ - INFO - 88 - trainer - [208/257] Loss: 5.0438
+2024/11/26 23:08:08 - __main__ - INFO - 72 - trainer - Epoch: 67
+2024/11/26 23:08:09 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.5310
+2024/11/26 23:08:26 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3515
+2024/11/26 23:08:44 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.6531
+2024/11/26 23:09:03 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.5042
+2024/11/26 23:09:21 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.7690
+2024/11/26 23:09:37 - __main__ - INFO - 72 - trainer - Epoch: 68
+2024/11/26 23:09:37 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8680
+2024/11/26 23:09:55 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.6039
+2024/11/26 23:10:12 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.7819
+2024/11/26 23:10:30 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4640
+2024/11/26 23:10:47 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6953
+2024/11/26 23:11:04 - __main__ - INFO - 72 - trainer - Epoch: 69
+2024/11/26 23:11:04 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.6772
+2024/11/26 23:11:22 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.6686
+2024/11/26 23:11:40 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5533
+2024/11/26 23:11:58 - __main__ - INFO - 88 - trainer - [156/257] Loss: 5.2648
+2024/11/26 23:12:16 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5541
+2024/11/26 23:12:32 - __main__ - INFO - 72 - trainer - Epoch: 70
+2024/11/26 23:12:32 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8639
+2024/11/26 23:12:51 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7636
+2024/11/26 23:13:09 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.6631
+2024/11/26 23:13:27 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.7408
+2024/11/26 23:13:44 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5681
+2024/11/26 23:14:00 - __main__ - INFO - 72 - trainer - Epoch: 71
+2024/11/26 23:14:00 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.6632
+2024/11/26 23:14:18 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.5642
+2024/11/26 23:14:36 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.6819
+2024/11/26 23:14:53 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.8397
+2024/11/26 23:15:11 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6784
+2024/11/26 23:15:28 - __main__ - INFO - 72 - trainer - Epoch: 72
+2024/11/26 23:15:28 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4667
+2024/11/26 23:15:46 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.4019
+2024/11/26 23:16:04 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.8324
+2024/11/26 23:16:23 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4026
+2024/11/26 23:16:40 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6064
+2024/11/26 23:16:57 - __main__ - INFO - 72 - trainer - Epoch: 73
+2024/11/26 23:16:58 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4092
+2024/11/26 23:17:15 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7462
+2024/11/26 23:17:33 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1859
+2024/11/26 23:17:51 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.6767
+2024/11/26 23:18:09 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6007
+2024/11/26 23:18:26 - __main__ - INFO - 72 - trainer - Epoch: 74
+2024/11/26 23:18:26 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.7482
+2024/11/26 23:18:44 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.8227
+2024/11/26 23:19:01 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.7316
+2024/11/26 23:19:18 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4227
+2024/11/26 23:19:36 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6406
+2024/11/26 23:19:52 - __main__ - INFO - 72 - trainer - Epoch: 75
+2024/11/26 23:19:52 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3699
+2024/11/26 23:20:10 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.2504
+2024/11/26 23:20:28 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4164
+2024/11/26 23:20:45 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4718
+2024/11/26 23:21:03 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5524
+2024/11/26 23:21:20 - __main__ - INFO - 72 - trainer - Epoch: 76
+2024/11/26 23:21:20 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.8717
+2024/11/26 23:21:38 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.4892
+2024/11/26 23:21:55 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4074
+2024/11/26 23:22:13 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.6953
+2024/11/26 23:22:30 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6541
+2024/11/26 23:22:47 - __main__ - INFO - 72 - trainer - Epoch: 77
+2024/11/26 23:22:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.5895
+2024/11/26 23:23:04 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7931
+2024/11/26 23:23:22 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.8558
+2024/11/26 23:23:40 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4153
+2024/11/26 23:23:58 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4293
+2024/11/26 23:24:15 - __main__ - INFO - 72 - trainer - Epoch: 78
+2024/11/26 23:24:15 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4749
+2024/11/26 23:24:33 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3737
+2024/11/26 23:24:51 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4590
+2024/11/26 23:25:08 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4491
+2024/11/26 23:25:26 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4609
+2024/11/26 23:25:43 - __main__ - INFO - 72 - trainer - Epoch: 79
+2024/11/26 23:25:43 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4319
+2024/11/26 23:26:01 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3681
+2024/11/26 23:26:19 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.6616
+2024/11/26 23:26:36 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.6413
+2024/11/26 23:26:54 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1394
+2024/11/26 23:27:10 - __main__ - INFO - 72 - trainer - Epoch: 80
+2024/11/26 23:27:10 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4488
+2024/11/26 23:27:28 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.5203
+2024/11/26 23:27:45 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.3215
+2024/11/26 23:28:03 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2889
+2024/11/26 23:28:21 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5362
+2024/11/26 23:28:36 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-26 23:28:36.998746
+2024/11/26 23:35:05 - __main__ - INFO - 72 - trainer - Epoch: 81
+2024/11/26 23:35:05 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.6087
+2024/11/26 23:35:23 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.8443
+2024/11/26 23:35:40 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5467
+2024/11/26 23:35:59 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3393
+2024/11/26 23:36:17 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5280
+2024/11/26 23:36:33 - __main__ - INFO - 72 - trainer - Epoch: 82
+2024/11/26 23:36:33 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.7835
+2024/11/26 23:36:51 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0339
+2024/11/26 23:37:09 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.7152
+2024/11/26 23:37:26 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2049
+2024/11/26 23:37:44 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6608
+2024/11/26 23:38:00 - __main__ - INFO - 72 - trainer - Epoch: 83
+2024/11/26 23:38:00 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3939
+2024/11/26 23:38:18 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.7080
+2024/11/26 23:38:35 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.8413
+2024/11/26 23:38:53 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3268
+2024/11/26 23:39:11 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4606
+2024/11/26 23:39:26 - __main__ - INFO - 72 - trainer - Epoch: 84
+2024/11/26 23:39:26 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0774
+2024/11/26 23:39:44 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.6962
+2024/11/26 23:40:01 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.2390
+2024/11/26 23:40:20 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3434
+2024/11/26 23:40:38 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4324
+2024/11/26 23:40:55 - __main__ - INFO - 72 - trainer - Epoch: 85
+2024/11/26 23:40:56 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0905
+2024/11/26 23:41:13 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.4114
+2024/11/26 23:41:31 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5493
+2024/11/26 23:41:50 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.5069
+2024/11/26 23:42:10 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6626
+2024/11/26 23:42:26 - __main__ - INFO - 72 - trainer - Epoch: 86
+2024/11/26 23:42:26 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.2943
+2024/11/26 23:42:44 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.4125
+2024/11/26 23:43:04 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.3317
+2024/11/26 23:43:22 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.5717
+2024/11/26 23:43:40 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2191
+2024/11/26 23:43:57 - __main__ - INFO - 72 - trainer - Epoch: 87
+2024/11/26 23:43:57 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.5336
+2024/11/26 23:44:15 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.2700
+2024/11/26 23:44:33 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1036
+2024/11/26 23:44:51 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.4253
+2024/11/26 23:45:10 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.4460
+2024/11/26 23:45:27 - __main__ - INFO - 72 - trainer - Epoch: 88
+2024/11/26 23:45:27 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4491
+2024/11/26 23:45:45 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.6195
+2024/11/26 23:46:04 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1105
+2024/11/26 23:46:22 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.1996
+2024/11/26 23:46:40 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0724
+2024/11/26 23:46:58 - __main__ - INFO - 72 - trainer - Epoch: 89
+2024/11/26 23:46:58 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3054
+2024/11/26 23:47:17 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.2411
+2024/11/26 23:47:35 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5806
+2024/11/26 23:47:53 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3185
+2024/11/26 23:48:11 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5255
+2024/11/26 23:48:27 - __main__ - INFO - 72 - trainer - Epoch: 90
+2024/11/26 23:48:28 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0478
+2024/11/26 23:48:46 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3918
+2024/11/26 23:49:04 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.5510
+2024/11/26 23:49:23 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2232
+2024/11/26 23:49:42 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5244
+2024/11/26 23:49:59 - __main__ - INFO - 72 - trainer - Epoch: 91
+2024/11/26 23:50:00 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.1929
+2024/11/26 23:50:18 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3397
+2024/11/26 23:50:36 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.6999
+2024/11/26 23:50:55 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2448
+2024/11/26 23:51:13 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.6655
+2024/11/26 23:51:29 - __main__ - INFO - 72 - trainer - Epoch: 92
+2024/11/26 23:51:30 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.2065
+2024/11/26 23:51:48 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3194
+2024/11/26 23:52:06 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.3450
+2024/11/26 23:52:25 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3381
+2024/11/26 23:52:43 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.3418
+2024/11/26 23:53:00 - __main__ - INFO - 72 - trainer - Epoch: 93
+2024/11/26 23:53:00 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.1214
+2024/11/26 23:53:19 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.2248
+2024/11/26 23:53:37 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.3342
+2024/11/26 23:53:56 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0462
+2024/11/26 23:54:15 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2563
+2024/11/26 23:54:31 - __main__ - INFO - 72 - trainer - Epoch: 94
+2024/11/26 23:54:31 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3787
+2024/11/26 23:54:49 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1359
+2024/11/26 23:55:07 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.2176
+2024/11/26 23:55:27 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2883
+2024/11/26 23:55:45 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1927
+2024/11/26 23:56:02 - __main__ - INFO - 72 - trainer - Epoch: 95
+2024/11/26 23:56:02 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3394
+2024/11/26 23:56:21 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.2011
+2024/11/26 23:56:39 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4108
+2024/11/26 23:56:57 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0031
+2024/11/26 23:57:14 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2753
+2024/11/26 23:57:32 - __main__ - INFO - 72 - trainer - Epoch: 96
+2024/11/26 23:57:32 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0277
+2024/11/26 23:57:51 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1302
+2024/11/26 23:58:10 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1700
+2024/11/26 23:58:28 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3553
+2024/11/26 23:58:47 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1131
+2024/11/26 23:59:03 - __main__ - INFO - 72 - trainer - Epoch: 97
+2024/11/26 23:59:04 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3740
+2024/11/26 23:59:22 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1523
+2024/11/26 23:59:40 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.2397
+2024/11/26 23:59:58 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.2123
+2024/11/27 00:00:17 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.5009
+2024/11/27 00:00:33 - __main__ - INFO - 72 - trainer - Epoch: 98
+2024/11/27 00:00:34 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0356
+2024/11/27 00:00:52 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3233
+2024/11/27 00:01:10 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.4251
+2024/11/27 00:01:29 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.3099
+2024/11/27 00:01:48 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0344
+2024/11/27 00:02:05 - __main__ - INFO - 72 - trainer - Epoch: 99
+2024/11/27 00:02:05 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.4271
+2024/11/27 00:02:24 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.3045
+2024/11/27 00:02:42 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.3917
+2024/11/27 00:03:00 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9760
+2024/11/27 00:03:19 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1923
+2024/11/27 00:03:35 - __main__ - INFO - 72 - trainer - Epoch: 100
+2024/11/27 00:03:36 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0633
+2024/11/27 00:03:54 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.8394
+2024/11/27 00:04:12 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0168
+2024/11/27 00:04:30 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.1553
+2024/11/27 00:04:49 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1630
+2024/11/27 00:05:05 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-27 00:05:05.595824
+2024/11/27 00:12:10 - __main__ - INFO - 72 - trainer - Epoch: 101
+2024/11/27 00:12:11 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0113
+2024/11/27 00:12:29 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0809
+2024/11/27 00:12:47 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0609
+2024/11/27 00:13:05 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9109
+2024/11/27 00:13:24 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1579
+2024/11/27 00:13:41 - __main__ - INFO - 72 - trainer - Epoch: 102
+2024/11/27 00:13:42 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.7988
+2024/11/27 00:14:00 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1168
+2024/11/27 00:14:19 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.9722
+2024/11/27 00:14:36 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0630
+2024/11/27 00:14:56 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1373
+2024/11/27 00:15:13 - __main__ - INFO - 72 - trainer - Epoch: 103
+2024/11/27 00:15:13 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.8713
+2024/11/27 00:15:32 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0805
+2024/11/27 00:15:51 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1329
+2024/11/27 00:16:09 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9128
+2024/11/27 00:16:27 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.9938
+2024/11/27 00:16:44 - __main__ - INFO - 72 - trainer - Epoch: 104
+2024/11/27 00:16:44 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.1198
+2024/11/27 00:17:02 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.9587
+2024/11/27 00:17:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.8452
+2024/11/27 00:17:39 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0291
+2024/11/27 00:17:58 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1773
+2024/11/27 00:18:14 - __main__ - INFO - 72 - trainer - Epoch: 105
+2024/11/27 00:18:15 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.2047
+2024/11/27 00:18:34 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.9991
+2024/11/27 00:18:52 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0981
+2024/11/27 00:19:10 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0595
+2024/11/27 00:19:28 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.7539
+2024/11/27 00:19:44 - __main__ - INFO - 72 - trainer - Epoch: 106
+2024/11/27 00:19:45 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.8491
+2024/11/27 00:20:03 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1119
+2024/11/27 00:20:20 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0562
+2024/11/27 00:20:38 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0324
+2024/11/27 00:20:57 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2314
+2024/11/27 00:21:13 - __main__ - INFO - 72 - trainer - Epoch: 107
+2024/11/27 00:21:13 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0738
+2024/11/27 00:21:32 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1003
+2024/11/27 00:21:49 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.8669
+2024/11/27 00:22:07 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0975
+2024/11/27 00:22:26 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2199
+2024/11/27 00:22:42 - __main__ - INFO - 72 - trainer - Epoch: 108
+2024/11/27 00:22:42 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.9109
+2024/11/27 00:23:01 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1457
+2024/11/27 00:23:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0894
+2024/11/27 00:23:39 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9838
+2024/11/27 00:23:58 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.2735
+2024/11/27 00:24:16 - __main__ - INFO - 72 - trainer - Epoch: 109
+2024/11/27 00:24:16 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0331
+2024/11/27 00:24:34 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.4208
+2024/11/27 00:24:53 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0707
+2024/11/27 00:25:10 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.1095
+2024/11/27 00:25:28 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0848
+2024/11/27 00:25:45 - __main__ - INFO - 72 - trainer - Epoch: 110
+2024/11/27 00:25:45 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.9742
+2024/11/27 00:26:03 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.9779
+2024/11/27 00:26:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.9220
+2024/11/27 00:26:39 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0379
+2024/11/27 00:26:57 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.8022
+2024/11/27 00:27:15 - __main__ - INFO - 72 - trainer - Epoch: 111
+2024/11/27 00:27:15 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.3402
+2024/11/27 00:27:33 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.6988
+2024/11/27 00:27:51 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1756
+2024/11/27 00:28:10 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.6871
+2024/11/27 00:28:28 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.9974
+2024/11/27 00:28:44 - __main__ - INFO - 72 - trainer - Epoch: 112
+2024/11/27 00:28:45 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.9066
+2024/11/27 00:29:03 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.8014
+2024/11/27 00:29:21 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0229
+2024/11/27 00:29:40 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.7083
+2024/11/27 00:29:59 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0278
+2024/11/27 00:30:17 - __main__ - INFO - 72 - trainer - Epoch: 113
+2024/11/27 00:30:18 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.9268
+2024/11/27 00:30:35 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1269
+2024/11/27 00:30:53 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.9194
+2024/11/27 00:31:12 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9100
+2024/11/27 00:31:30 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0347
+2024/11/27 00:31:47 - __main__ - INFO - 72 - trainer - Epoch: 114
+2024/11/27 00:31:47 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0838
+2024/11/27 00:32:06 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0764
+2024/11/27 00:32:24 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.0276
+2024/11/27 00:32:42 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.1465
+2024/11/27 00:33:01 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.9211
+2024/11/27 00:33:18 - __main__ - INFO - 72 - trainer - Epoch: 115
+2024/11/27 00:33:18 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.1583
+2024/11/27 00:33:37 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.1059
+2024/11/27 00:33:56 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.7929
+2024/11/27 00:34:15 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.8881
+2024/11/27 00:34:33 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.3210
+2024/11/27 00:34:50 - __main__ - INFO - 72 - trainer - Epoch: 116
+2024/11/27 00:34:51 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0867
+2024/11/27 00:35:09 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0220
+2024/11/27 00:35:28 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.7591
+2024/11/27 00:35:46 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.9977
+2024/11/27 00:36:05 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.1550
+2024/11/27 00:36:22 - __main__ - INFO - 72 - trainer - Epoch: 117
+2024/11/27 00:36:22 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0515
+2024/11/27 00:36:41 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0252
+2024/11/27 00:37:00 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.9113
+2024/11/27 00:37:19 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.1207
+2024/11/27 00:37:37 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.9081
+2024/11/27 00:37:53 - __main__ - INFO - 72 - trainer - Epoch: 118
+2024/11/27 00:37:54 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.6121
+2024/11/27 00:38:12 - __main__ - INFO - 88 - trainer - [52/257] Loss: 4.0243
+2024/11/27 00:38:30 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.8370
+2024/11/27 00:38:48 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.7963
+2024/11/27 00:39:07 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.8576
+2024/11/27 00:39:25 - __main__ - INFO - 72 - trainer - Epoch: 119
+2024/11/27 00:39:25 - __main__ - INFO - 88 - trainer - [0/257] Loss: 3.7833
+2024/11/27 00:39:43 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.9266
+2024/11/27 00:40:02 - __main__ - INFO - 88 - trainer - [104/257] Loss: 4.1651
+2024/11/27 00:40:21 - __main__ - INFO - 88 - trainer - [156/257] Loss: 3.8920
+2024/11/27 00:40:39 - __main__ - INFO - 88 - trainer - [208/257] Loss: 3.7630
+2024/11/27 00:40:57 - __main__ - INFO - 72 - trainer - Epoch: 120
+2024/11/27 00:40:57 - __main__ - INFO - 88 - trainer - [0/257] Loss: 4.0969
+2024/11/27 00:41:15 - __main__ - INFO - 88 - trainer - [52/257] Loss: 3.8607
+2024/11/27 00:41:34 - __main__ - INFO - 88 - trainer - [104/257] Loss: 3.9203
+2024/11/27 00:41:52 - __main__ - INFO - 88 - trainer - [156/257] Loss: 4.0767
+2024/11/27 00:42:10 - __main__ - INFO - 88 - trainer - [208/257] Loss: 4.0174
+2024/11/27 00:42:28 - __main__ - INFO - 94 - trainer - start predicting: 2024-11-27 00:42:28.651627
+2024/11/27 00:49:12 - __main__ - INFO - 128 - trainer - {'Best_HR@5': 0.0621, 'Best_NDCG@5': 0.0362, 'Best_HR@10': 0.1308, 'Best_NDCG@10': 0.0583, 'Best_HR@20': 0.264, 'Best_NDCG@20': 0.0916}
+2024/11/27 00:49:12 - __main__ - INFO - 129 - trainer - {'Best_epoch_HR@5': 20, 'Best_epoch_NDCG@5': 20, 'Best_epoch_HR@10': 20, 'Best_epoch_NDCG@10': 20, 'Best_epoch_HR@20': 20, 'Best_epoch_NDCG@20': 20}
+2024/11/27 00:55:33 - __main__ - INFO - 156 - trainer - Test------------------------------------------------------
+2024/11/27 00:55:33 - __main__ - INFO - 158 - trainer - {'HR@5': 0.0621, 'NDCG@5': 0.0376, 'HR@10': 0.1131, 'NDCG@10': 0.0543, 'HR@20': 0.2241, 'NDCG@20': 0.0819}
+2024/11/27 00:55:33 - __main__ - INFO - 160 - trainer - Best Eval---------------------------------------------------------
+2024/11/27 00:55:33 - __main__ - INFO - 163 - trainer - {'Best_HR@5': 0.0621, 'Best_NDCG@5': 0.0362, 'Best_HR@10': 0.1308, 'Best_NDCG@10': 0.0583, 'Best_HR@20': 0.264, 'Best_NDCG@20': 0.0916}
+2024/11/27 00:55:33 - __main__ - INFO - 164 - trainer - {'Best_epoch_HR@5': 20, 'Best_epoch_NDCG@5': 20, 'Best_epoch_HR@10': 20, 'Best_epoch_NDCG@10': 20, 'Best_epoch_HR@20': 20, 'Best_epoch_NDCG@20': 20}

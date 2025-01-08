@@ -1,0 +1,19 @@
+2024/11/30 17:43:00 - __main__ - INFO - 65 - main - Namespace(batch_size=512, dataset='toys', decay_step=100, description='Diffu_norm_score', device='cuda', diffusion_steps=32, diversity_measure=False, dropout=0.1, emb_dropout=0.3, epoch_time_avg=False, epochs=500, eval_interval=20, gamma=0.1, hidden_act='gelu', hidden_size=128, lambda_uncertainty=0.001, log_file='log/', long_head=False, loss_lambda=0.001, lr=0.001, max_len=50, metric_ks=[5, 10, 20], momentum=None, noise_schedule='trunc_lin', num_blocks=4, num_gpu=1, optimizer='Adam', patience=5, random_seed=1997, rescale_timesteps=True, schedule_sampler_name='lossaware', weight_decay=0)
+2024/11/30 17:43:27 - __main__ - INFO - 72 - trainer - Epoch: 0
+2024/11/30 17:43:28 - __main__ - INFO - 88 - trainer - [0/214] Loss: 53.1889
+2024/11/30 17:44:10 - __main__ - INFO - 88 - trainer - [43/214] Loss: 32.5772
+2024/11/30 17:44:54 - __main__ - INFO - 88 - trainer - [86/214] Loss: 28.0180
+2024/11/30 17:45:41 - __main__ - INFO - 88 - trainer - [129/214] Loss: 24.7227
+2024/11/30 17:46:31 - __main__ - INFO - 88 - trainer - [172/214] Loss: 21.8137
+2024/11/30 17:47:16 - __main__ - INFO - 72 - trainer - Epoch: 1
+2024/11/30 17:47:18 - __main__ - INFO - 88 - trainer - [0/214] Loss: 20.2723
+2024/11/30 17:48:11 - __main__ - INFO - 88 - trainer - [43/214] Loss: 18.4602
+2024/11/30 17:48:59 - __main__ - INFO - 88 - trainer - [86/214] Loss: 17.0741
+2024/11/30 17:49:46 - __main__ - INFO - 88 - trainer - [129/214] Loss: 15.3897
+2024/11/30 17:50:34 - __main__ - INFO - 88 - trainer - [172/214] Loss: 14.5250
+2024/11/30 17:51:21 - __main__ - INFO - 72 - trainer - Epoch: 2
+2024/11/30 17:51:22 - __main__ - INFO - 88 - trainer - [0/214] Loss: 13.2500
+2024/11/30 17:52:11 - __main__ - INFO - 88 - trainer - [43/214] Loss: 11.7537
+2024/11/30 17:52:59 - __main__ - INFO - 88 - trainer - [86/214] Loss: 10.9636
+2024/11/30 17:53:49 - __main__ - INFO - 88 - trainer - [129/214] Loss: 10.2073
+2024/11/30 17:54:35 - __main__ - INFO - 88 - trainer - [172/214] Loss: 10.0702
